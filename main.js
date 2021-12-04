@@ -95,10 +95,15 @@ is like this
 
 //section11 objects
 
-const my = {
-  firstName: "mohammad hosein",
-  lastName: "goodarzi",
-  age: 23,
-  job: "learning react",
-};
-console.log(my.firstName, my.lastName, my.age, my.job);
+// const my = {
+//   firstName: "mohammad hosein",
+//   lastName: "goodarzi",
+//   age: 23,
+//   job: "learning react",
+// };
+// console.log(my.firstName, my.lastName, my.age, my.job);
+
+// section12
+function change() {
+  document.getElementById("testb").innerHTML = Date();
+}
