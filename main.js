@@ -85,10 +85,20 @@ is like this
 // console.log(typeof x);
 
 //section10 function
-function shopping(price1, price2) {
-  return price1 + price2;
-}
-console.log(shopping(25, 75));
-let x = shopping(250, 750);
-let y = "i buy 2 thing and it cost " + x + "$";
-console.log(y);
+// function shopping(price1, price2) {
+//   return price1 + price2;
+// }
+// console.log(shopping(25, 75));
+// let x = shopping(250, 750);
+// let y = "i buy 2 thing and it cost " + x + "$";
+// console.log(y);
+
+//section11 objects
+
+const my = {
+  firstName: "mohammad hosein",
+  lastName: "goodarzi",
+  age: 23,
+  job: "learning react",
+};
+console.log(my.firstName, my.lastName, my.age, my.job);
