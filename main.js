@@ -15,14 +15,22 @@
 // window.print()
 
 //section4 statement
-let c, a, b;
-a = 5;
-b = 95;
-c = b / a;
-console.log(c); //19
+// let c, a, b;
+// a = 5;
+// b = 95;
+// c = b / a;
+// console.log(c); //19
 
-const z = 400;
-const y = 600;
-let x = (z * y) / 10000; //24
-console.log(x);
-console.log(x - c); //5
+// const z = 400;
+// const y = 600;
+// let x = (z * y) / 10000; //24
+// console.log(x);
+// console.log(x - c); //5
+
+//section5 syntax
+let a, title, c, d;
+a = "this is";
+title = " my javaScript trainings";
+c = ", section";
+d = 2 + 3;
+console.log(a + title + c + d); //this is my javaScript trainings, section5
