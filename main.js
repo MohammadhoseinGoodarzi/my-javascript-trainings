@@ -76,10 +76,19 @@ is like this
 // console.log((z ** y) / x);
 
 //section9
-let x = 20;
-let y = 20;
-let z = "MHG";
-console.log(typeof (x == y));
-console.log(typeof x, typeof z);
-x = true;
-console.log(typeof x);
+// let x = 20;
+// let y = 20;
+// let z = "MHG";
+// console.log(typeof (x == y));
+// console.log(typeof x, typeof z);
+// x = true;
+// console.log(typeof x);
+
+//section10 function
+function shopping(price1, price2) {
+  return price1 + price2;
+}
+console.log(shopping(25, 75));
+let x = shopping(250, 750);
+let y = "i buy 2 thing and it cost " + x + "$";
+console.log(y);
