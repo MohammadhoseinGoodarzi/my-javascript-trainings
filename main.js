@@ -67,10 +67,19 @@ is like this
 // console.log(myAge);
 
 //section8 operators
-const x = 5;
-let y = 4;
-console.log(x * y); //20
-y = 5;
-console.log(x - y); //0
-const z = 10;
-console.log((z ** y) / x);
+// const x = 5;
+// let y = 4;
+// console.log(x * y); //20
+// y = 5;
+// console.log(x - y); //0
+// const z = 10;
+// console.log((z ** y) / x);
+
+//section9
+let x = 20;
+let y = 20;
+let z = "MHG";
+console.log(typeof (x == y));
+console.log(typeof x, typeof z);
+x = true;
+console.log(typeof x);
