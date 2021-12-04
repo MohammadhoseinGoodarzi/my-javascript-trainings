@@ -28,9 +28,17 @@
 // console.log(x - c); //5
 
 //section5 syntax
-let a, title, c, d;
-a = "this is";
-title = " my javaScript trainings";
-c = ", section";
-d = 2 + 3;
-console.log(a + title + c + d); //this is my javaScript trainings, section5
+// let a, title, c, d;
+// a = "this is";
+// title = " my javaScript trainings";
+// c = ", section";
+// d = 2 + 3;
+// console.log(a + title + c + d); //this is my javaScript trainings, section5
+
+//section6 comments
+/* multi line 
+comments
+is like this
+*/
+
+//and this is single line comments
