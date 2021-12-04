@@ -42,3 +42,26 @@ is like this
 */
 
 //and this is single line comments
+
+//section7 variables
+//var
+var a = 30,
+  b = 7;
+var myName = "Mohammad hosein",
+  age = a - b;
+
+document.getElementById("test").innerHTML =
+  myName + " " + "is " + age + " " + "year old";
+
+//let
+let name = "mohammad";
+
+name = "ali";
+// let name = "hosein"; //this is wrong
+console.log(name);
+document.getElementById("test").innerHTML = name;
+
+//const
+const myAge = 23;
+// myAge = 99; // wrong
+console.log(myAge);
