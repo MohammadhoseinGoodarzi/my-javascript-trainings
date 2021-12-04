@@ -45,23 +45,32 @@ is like this
 
 //section7 variables
 //var
-var a = 30,
-  b = 7;
-var myName = "Mohammad hosein",
-  age = a - b;
+// var a = 30,
+//   b = 7;
+// var myName = "Mohammad hosein",
+//   age = a - b;
 
-document.getElementById("test").innerHTML =
-  myName + " " + "is " + age + " " + "year old";
+// document.getElementById("test").innerHTML =
+//   myName + " " + "is " + age + " " + "year old";
 
 //let
-let name = "mohammad";
+// let name = "mohammad";
 
-name = "ali";
+// name = "ali";
 // let name = "hosein"; //this is wrong
-console.log(name);
-document.getElementById("test").innerHTML = name;
+// console.log(name);
+// document.getElementById("test").innerHTML = name;
 
 //const
-const myAge = 23;
+// const myAge = 23;
 // myAge = 99; // wrong
-console.log(myAge);
+// console.log(myAge);
+
+//section8 operators
+const x = 5;
+let y = 4;
+console.log(x * y); //20
+y = 5;
+console.log(x - y); //0
+const z = 10;
+console.log((z ** y) / x);
