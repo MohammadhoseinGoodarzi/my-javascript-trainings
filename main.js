@@ -148,9 +148,9 @@ is like this
 
 // }
 // console.log("this is = " + i);
-let i = 5;
-let text = "";
-for (let i = 0; i < 10; i++) {
-  text += [i] + "<br>";
-}
-document.getElementById("test").innerHTML = text;
+// let i = 5;
+// let text = "";
+// for (let i = 0; i < 10; i++) {
+//   text += [i] + "<br>";
+// }
+// document.getElementById("test").innerHTML = text;
