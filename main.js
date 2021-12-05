@@ -130,14 +130,27 @@ is like this
 // console.log(numbers3);
 
 //section14
-console.log(Math.round(4.5))
-console.log(Math.ceil(4.1))
-console.log(Math.floor(4.9))
-console.log(Math.trunc(4.7))
-console.log(Math.floor(-4.9))
-console.log(Math.pow(2,10))
-console.log(Math.sqrt(1024))
-console.log(Math.abs(-666))
-console.log(Math.max(-2,200,66,26,54,321,400))
-console.log(Math.random())
-console.log(Math.floor(Math.random()*10))
+// console.log(Math.round(4.5))
+// console.log(Math.ceil(4.1))
+// console.log(Math.floor(4.9))
+// console.log(Math.trunc(4.7))
+// console.log(Math.floor(-4.9))
+// console.log(Math.pow(2,10))
+// console.log(Math.sqrt(1024))
+// console.log(Math.abs(-666))
+// console.log(Math.max(-2,200,66,26,54,321,400))
+// console.log(Math.random())
+// console.log(Math.floor(Math.random()*10))
+
+//section15
+// let i = 2;
+// for (let i = 0; i < 10, i++; ) {
+
+// }
+// console.log("this is = " + i);
+let i = 5;
+let text = "";
+for (let i = 0; i < 10; i++) {
+  text += [i] + "<br>";
+}
+document.getElementById("test").innerHTML = text;
