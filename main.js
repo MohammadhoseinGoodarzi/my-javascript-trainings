@@ -104,6 +104,27 @@ is like this
 // console.log(my.firstName, my.lastName, my.age, my.job);
 
 // section12
-function change() {
-  document.getElementById("testb").innerHTML = Date();
+// function change() {
+//   document.getElementById("testb").innerHTML = Date();
+// }
+
+//section13
+const food = ["kebab", "pizza", "kalepache"];
+console.log(food[2]);
+
+console.log(food.length);
+food.push("ghorme");
+document.getElementById("test").innerHTML = food;
+console.log(food.sort());
+
+const numbers1 = [12, 56, 33, 64, 59, 10, 96];
+const numbers2 = numbers1.map(myFunction);
+function myFunction(value, index, array) {
+  return value * 2;
 }
+console.log(numbers2);
+const numbers3 = numbers1.filter(myFunction1);
+function myFunction1(value) {
+  return value > 50;
+}
+console.log(numbers3);
